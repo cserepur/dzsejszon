@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form-container
+        {
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+        table, td, th
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+    <fieldset>
+        <legend>urlap</legend>
+        <form action="" id="userForm">
+        <p>
+            <label for="vezeteknev">vezetéknév:</label>
+            <input type="text" name="vezeteknev" id="vezeteknev" placeholder="vezetekenev megadasdas">
+        </p>
+        <p>
+            <label for="keresztnev">keresztnév:</label>
+            <input type="text" name="keresztnev" id="keresztnev" placeholder="kersztnev megadasdasd">
+        </p>
+        <p>
+            <label for="email">email:</label>
+            <input type="email" name="email" id="email" placeholder="email megadasd">
+        </p>
+        <p>
+            <label for="telefonszam">teleszfonszam:</label>
+            <input type="tel" name="telefonszam" id="telefonszam" placeholder="add meg a telefonszamodhihi">
+        </p>
+    </fieldset>
+    <p>
+    <button type="submit">elkülddddddd</button>
+    </p>
+</form>
+    <h3>Locla staorage adatok emgjelgnitese</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>vezeteknev</th>
+                <th>keresztnev</th>
+                <th>email cim</th>
+                <th>teleofnszam</th>
+            </tr>
+        </thead>
+        <tbody id="usersTable"><!--ide jonnek az adatok--></tbody>
+    </table>
+</div>
+<script src="szar.js"></script>
+</body>
+</html>
